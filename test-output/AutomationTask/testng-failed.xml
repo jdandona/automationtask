@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AutomationTask]">
+  <test thread-count="5" name="LoginTest(failed)">
+    <parameter name="Mode" value="Android"/>
+    <classes>
+      <class name="com.kaiahealth.automationtask.Tests.LoginTests">
+        <methods>
+          <include name="Test01_Navigate_To_LoginForm"/>
+          <include name="Test02_Login_With_ValidUser"/>
+          <include name="handleTestMethodName"/>
+          <include name="Start_Test_Session"/>
+        </methods>
+      </class> <!-- com.kaiahealth.automationtask.Tests.LoginTests -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [AutomationTask] -->

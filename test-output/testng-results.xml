@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="82" started-at="2022-03-26T03:52:06 IST" finished-at="2022-03-26T03:52:06 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="82" started-at="2022-03-26T03:52:06 IST" finished-at="2022-03-26T03:52:06 IST">
+      <class name="com.kaiahealth.automationtask.Tests.LoginTests">
+        <test-method status="FAIL" signature="Start_Test_Session(java.lang.String)[pri:0, instance:com.kaiahealth.automationtask.Tests.LoginTests@23fe1d71]" name="Start_Test_Session" is-config="true" duration-ms="-1648246926448" started-at="2022-03-26T03:52:06 IST" finished-at="1970-01-01T05:30:00 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Mode' is required by BeforeClass on method Start_Test_Session but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse--1093254908\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Mode' is required by BeforeClass on method Start_Test_Session but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse--1093254908\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start_Test_Session -->
+        <test-method status="SKIP" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.kaiahealth.automationtask.Tests.LoginTests@23fe1d71]" name="handleTestMethodName" is-config="true" duration-ms="-1648246926479" started-at="2022-03-26T03:52:06 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="SKIP" signature="Test01_Navigate_To_LoginForm()[pri:0, instance:com.kaiahealth.automationtask.Tests.LoginTests@23fe1d71]" name="Test01_Navigate_To_LoginForm" duration-ms="0" started-at="2022-03-26T03:52:06 IST" description="when user tap the Login button on the welcome screen then the login form is presented." finished-at="2022-03-26T03:52:06 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Mode' is required by BeforeClass on method Start_Test_Session but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse--1093254908\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Mode' is required by BeforeClass on method Start_Test_Session but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse--1093254908\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_Navigate_To_LoginForm -->
+        <test-method status="SKIP" signature="Test02_Login_With_ValidUser()[pri:0, instance:com.kaiahealth.automationtask.Tests.LoginTests@23fe1d71]" name="Test02_Login_With_ValidUser" duration-ms="0" started-at="2022-03-26T03:52:06 IST" description="when you enter a valid email address and a correct password then tapping on the login button
+logs you in" depends-on-methods="com.kaiahealth.automationtask.Tests.LoginTests.Test01_Navigate_To_LoginForm" finished-at="2022-03-26T03:52:06 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LoginTests.Test02_Login_With_ValidUser()[pri:0, instance:com.kaiahealth.automationtask.Tests.LoginTests@23fe1d71] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LoginTests.Test02_Login_With_ValidUser()[pri:0, instance:com.kaiahealth.automationtask.Tests.LoginTests@23fe1d71] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02_Login_With_ValidUser -->
+      </class> <!-- com.kaiahealth.automationtask.Tests.LoginTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

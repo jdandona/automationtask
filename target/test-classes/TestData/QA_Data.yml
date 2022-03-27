@@ -1,0 +1,12 @@
+LoginTest:
+      ValidUser:
+            username: erzsebet.nyiri+casestudy111@kaiahealth.com
+            password: Test1234
+      InvalidLogin:
+             InvalidEmail:
+                 username: abc@gmail.com
+                 password: Test1234
+             InvalidPassword:
+                 username: erzsebet.nyiri+casestudy111@kaiahealth.com
+                 password: Test4321
+           
