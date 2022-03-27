@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AutomationTask" preserve-order="true">
+
+	<test name="LoginTest" preserve-order="true">
+		<parameter name="Platform" value="Android"></parameter>
+		<classes>
+			<class name="com.kaiahealth.automationtask.Tests.LoginTests" />
+			<class name="com.kaiahealth.automationtask.Tests.LoginValidationTests" />
+		</classes>
+	</test>
+
+
+
+
+
+</suite>
